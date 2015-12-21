@@ -1,0 +1,33 @@
+2015-12-21 05:31:10,518 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2015-12-21 05:31:10,524 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 3 i have a apple 
+2015-12-21 05:31:10,526 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 2 and i have nothing 
+2015-12-21 05:31:10,524 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 1 i have a null 
+2015-12-21 05:31:10,529 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 4 and i have nothing 
+2015-12-21 05:31:10,531 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 5 and i have nothing 
+2015-12-21 05:31:10,533 INFO FeedHedgehogs [main] feed Synchronous streams 
+2015-12-21 05:31:10,538 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1 i have a apple 
+2015-12-21 05:31:10,539 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2 i have a pineapple 
+2015-12-21 05:31:10,541 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3 i have a Watermelon 
+2015-12-21 05:31:10,542 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4 i have a Lemon 
+2015-12-21 05:31:10,542 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5 i have a pear 
+2015-12-21 05:31:10,649 INFO Main [main] main Not synchronous queue 
+2015-12-21 05:31:10,661 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2015-12-21 05:31:10,662 INFO Main [main] main Sum = 0 
+2015-12-21 05:31:10,663 INFO Main [main] main Synchronous queue 
+2015-12-21 05:31:10,674 INFO Main [main] main syncSum = 500500 
+2015-12-21 05:31:30,293 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2015-12-21 05:31:30,297 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 1 i have a apple 
+2015-12-21 05:31:30,297 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 3 i have a pineapple 
+2015-12-21 05:31:30,298 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 4 i have a Watermelon 
+2015-12-21 05:31:30,297 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 2 i have a apple 
+2015-12-21 05:31:30,300 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 5 i have a Lemon 
+2015-12-21 05:31:30,301 INFO FeedHedgehogs [main] feed Synchronous streams 
+2015-12-21 05:31:30,305 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2 i have a pineapple 
+2015-12-21 05:31:30,306 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3 i have a Watermelon 
+2015-12-21 05:31:30,306 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4 i have a Lemon 
+2015-12-21 05:31:30,305 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1 i have a apple 
+2015-12-21 05:31:30,309 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5 i have a pear 
+2015-12-21 05:31:30,415 INFO Main [main] main Not synchronous queue 
+2015-12-21 05:31:30,424 INFO Main [main] main Sum = 11 
+2015-12-21 05:31:30,425 INFO Main [main] main Synchronous queue 
+2015-12-21 05:31:30,439 INFO Main [main] main syncSum = 500500 
