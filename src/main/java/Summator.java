@@ -20,10 +20,11 @@ public class Summator implements Callable<Integer> {
     @Override
     public Integer call() throws Exception {
         try {
-            while (true)
+            while (!queue.isEmpty())
                 sum += queue.remove();
         }catch (NoSuchElementException e){
-            log.debug("End of queue has been reached in thread #"+Thread.currentThread().getId());
+            log.debug("End of queue has been reached in thread #"+Thread.currentThread().getId()
+                    + " queue type is " + queue.getClass().getSimpleName());
         }
         return sum;
     }

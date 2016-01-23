@@ -14,7 +14,7 @@ public class Main {
 
         //first example
         FeedHedgehogs feedHedgehogs = new FeedHedgehogs();
-        feedHedgehogs.feed();
+        feedHedgehogs.feed(12);//feed some hedgehogs
         //waiting for hedgehogs
         try {
             Thread.sleep(100);
@@ -30,14 +30,15 @@ public class Main {
             syncQueue.add(i);
         }
 
+        log.debug("\nSummator part:");
         SumCollector sc = new SumCollector();
         Integer sum, syncSum = 0;
         log.info("Not synchronous queue");
-        sum = sc.collectSum(notSyncQueue);
+        sum = sc.collectSum(notSyncQueue, 3);
         log.info("Sum = " + sum);
 
         log.info("Synchronous queue");
-        syncSum = sc.collectSum(syncQueue);
+        syncSum = sc.collectSum(syncQueue, 5);
         log.info("syncSum = " + syncSum);
     }
 }

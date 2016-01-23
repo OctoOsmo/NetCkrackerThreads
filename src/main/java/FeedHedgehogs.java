@@ -2,7 +2,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -17,41 +16,48 @@ public class FeedHedgehogs {
     ExecutorService executorService = Executors.newCachedThreadPool();
 
     public FeedHedgehogs() {
-        basket.add("apple");
-        basket.add("pineapple");
+        basket.add("Apple");
+        basket.add("Pineapple");
         basket.add("Watermelon");
         basket.add("Lemon");
-        basket.add("pear");
+        basket.add("Pear");
+        basket.add("Hum");
+        basket.add("Milk");
+        basket.add("Bread");
+        basket.add("Strawberry");
+        basket.add("Blueberry");
+        basket.add("Egg");
         log.debug("Basket contains: ");
+        int basketSize = 0;
         for (String s : basket) {
             log.debug(s);
             syncBasket.add(s);
+            basketSize++;
         }
+        log.debug("total " + basketSize + " items");
     }
 
-    public void feed(){
+    public void feed(int threadNum){
+        Thread[] threads = new Thread[threadNum];
         log.info("Not synchronous streams");
-        Thread h1 = new Thread(new GreedyHedgehog(1, basket));
-        Thread h2 = new Thread(new GreedyHedgehog(2, basket));
-        Thread h3 = new Thread(new GreedyHedgehog(3, basket));
-        Thread h4 = new Thread(new GreedyHedgehog(4, basket));
-        Thread h5 = new Thread(new GreedyHedgehog(5, basket));
-        h1.start();
-        h2.start();
-        h3.start();
-        h4.start();
-        h5.start();
-        try {
-            h1.join();
-            h2.join();
-            h3.join();
-            h4.join();
-            h5.join();
-        } catch (InterruptedException e) {
-            log.error(e.getMessage());
+        //creating threads
+        for (int i = 0; i < threadNum; i++) {
+            threads[i] = new Thread(new GreedyHedgehog(i, basket));
+        }
+        //starting threads
+        for (int i = 0; i < threadNum; i++) {
+            threads[i].start();
+        }
+        //joining threads
+        for (int i = 0; i < threadNum; i++) {
+            try {
+                threads[i].join();
+            } catch (InterruptedException e) {
+                log.error(e.getMessage());
+            }
         }
         log.info("Synchronous streams");
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= threadNum; i++) {
             executorService.submit(new GreedyHedgehog(i, syncBasket));
         }
     }

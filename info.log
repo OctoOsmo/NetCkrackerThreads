@@ -31,3 +31,1331 @@
 2015-12-21 05:31:30,424 INFO Main [main] main Sum = 11 
 2015-12-21 05:31:30,425 INFO Main [main] main Synchronous queue 
 2015-12-21 05:31:30,439 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:20:16,471 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:20:16,473 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 3 i have a null 
+2016-01-23 16:20:16,474 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 5 and i have nothing 
+2016-01-23 16:20:16,473 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 2 i have a null 
+2016-01-23 16:20:16,474 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 4 and i have nothing 
+2016-01-23 16:20:16,473 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 1 i have a apple 
+2016-01-23 16:20:16,475 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:20:16,478 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2 i have a pineapple 
+2016-01-23 16:20:16,478 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3 i have a Lemon 
+2016-01-23 16:20:16,478 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5 i have a pear 
+2016-01-23 16:20:16,478 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4 i have a Watermelon 
+2016-01-23 16:20:16,478 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1 i have a apple 
+2016-01-23 16:20:16,582 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:20:16,585 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 16:20:16,587 INFO Main [main] main Sum = 0 
+2016-01-23 16:20:16,587 INFO Main [main] main Synchronous queue 
+2016-01-23 16:20:16,593 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:33:38,497 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:33:38,499 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0 i have a Apple 
+2016-01-23 16:33:38,499 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1 i have a null 
+2016-01-23 16:33:38,499 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing 
+2016-01-23 16:33:38,501 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing 
+2016-01-23 16:33:38,501 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing 
+2016-01-23 16:33:38,501 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:33:38,504 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2 i have a Pineapple 
+2016-01-23 16:33:38,504 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1 i have a Apple 
+2016-01-23 16:33:38,505 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3 i have a Watermelon 
+2016-01-23 16:33:38,505 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5 i have a Pear 
+2016-01-23 16:33:38,505 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4 i have a Lemon 
+2016-01-23 16:33:38,611 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:33:38,647 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 16:33:38,661 INFO Main [main] main Sum = 0 
+2016-01-23 16:33:38,662 INFO Main [main] main Synchronous queue 
+2016-01-23 16:33:38,670 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:34:20,101 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:34:20,106 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1 i have a Apple 
+2016-01-23 16:34:20,106 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0 i have a Pineapple 
+2016-01-23 16:34:20,107 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 i have a Watermelon 
+2016-01-23 16:34:20,107 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 i have a Lemon 
+2016-01-23 16:34:20,108 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 i have a Pear 
+2016-01-23 16:34:20,109 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:34:20,113 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1 i have a Apple 
+2016-01-23 16:34:20,113 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2 i have a Pineapple 
+2016-01-23 16:34:20,114 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5 i have a Lemon 
+2016-01-23 16:34:20,114 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4 i have a Watermelon 
+2016-01-23 16:34:20,115 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3 i have a Pear 
+2016-01-23 16:34:20,217 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:34:20,221 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 16:34:20,221 INFO Main [main] main Sum = 0 
+2016-01-23 16:34:20,222 INFO Main [main] main Synchronous queue 
+2016-01-23 16:34:20,227 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:36:58,612 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:36:58,615 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0 i have a Apple 
+2016-01-23 16:36:58,615 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 i have a Pineapple 
+2016-01-23 16:36:58,616 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 i have a Pear 
+2016-01-23 16:36:58,616 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 i have a Lemon 
+2016-01-23 16:36:58,616 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1 i have a Watermelon 
+2016-01-23 16:36:58,617 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:36:58,619 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1 i have a Apple 
+2016-01-23 16:36:58,619 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2 i have a Pineapple 
+2016-01-23 16:36:58,620 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3 i have a Watermelon 
+2016-01-23 16:36:58,620 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4 i have a Lemon 
+2016-01-23 16:36:58,621 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5 i have a Pear 
+2016-01-23 16:36:58,727 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:36:58,733 INFO Main [main] main Sum = 500500 
+2016-01-23 16:36:58,733 INFO Main [main] main Synchronous queue 
+2016-01-23 16:36:58,738 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:37:40,296 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:37:40,300 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1 i have a Apple 
+2016-01-23 16:37:40,300 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0 i have a Watermelon 
+2016-01-23 16:37:40,300 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 i have a Pineapple 
+2016-01-23 16:37:40,301 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 i have a Lemon 
+2016-01-23 16:37:40,301 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 i have a Pear 
+2016-01-23 16:37:40,302 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:37:40,304 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2 i have a Pineapple 
+2016-01-23 16:37:40,303 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1 i have a Apple 
+2016-01-23 16:37:40,304 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3 i have a Watermelon 
+2016-01-23 16:37:40,304 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4 i have a Lemon 
+2016-01-23 16:37:40,305 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5 i have a Pear 
+2016-01-23 16:37:40,408 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:37:40,418 INFO Main [main] main Sum = 500500 
+2016-01-23 16:37:40,418 INFO Main [main] main Synchronous queue 
+2016-01-23 16:37:40,424 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:38:00,328 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:38:00,331 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0 i have a Apple 
+2016-01-23 16:38:00,331 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1 i have a null 
+2016-01-23 16:38:00,333 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing 
+2016-01-23 16:38:00,333 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing 
+2016-01-23 16:38:00,333 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing 
+2016-01-23 16:38:00,332 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing 
+2016-01-23 16:38:00,332 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing 
+2016-01-23 16:38:00,334 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing 
+2016-01-23 16:38:00,334 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing 
+2016-01-23 16:38:00,334 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing 
+2016-01-23 16:38:00,335 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing 
+2016-01-23 16:38:00,336 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:38:00,338 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1 i have a Apple 
+2016-01-23 16:38:00,339 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3 i have a Pineapple 
+2016-01-23 16:38:00,339 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2 i have a Watermelon 
+2016-01-23 16:38:00,340 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5 i have a Lemon 
+2016-01-23 16:38:00,341 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8 i have a Pear 
+2016-01-23 16:38:00,341 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4 i have a Hum 
+2016-01-23 16:38:00,342 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7 i have a Milk 
+2016-01-23 16:38:00,342 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6 i have a Bread 
+2016-01-23 16:38:00,343 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10 i have a Strawberry 
+2016-01-23 16:38:00,343 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11 i have a Blueberry 
+2016-01-23 16:38:00,343 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9 i have a Egg 
+2016-01-23 16:38:00,443 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:38:00,448 INFO Main [main] main Sum = 500500 
+2016-01-23 16:38:00,448 INFO Main [main] main Synchronous queue 
+2016-01-23 16:38:00,452 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:38:41,869 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:38:41,876 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Apple 
+2016-01-23 16:38:41,876 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 16:38:41,877 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 16:38:41,878 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Watermelon 
+2016-01-23 16:38:41,878 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 16:38:41,878 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Pear 
+2016-01-23 16:38:41,879 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Hum 
+2016-01-23 16:38:41,879 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Milk 
+2016-01-23 16:38:41,880 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Bread 
+2016-01-23 16:38:41,881 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 16:38:41,881 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 16:38:41,882 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:38:41,885 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 16:38:41,887 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Watermelon 
+2016-01-23 16:38:41,887 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 16:38:41,887 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 16:38:41,888 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pear 
+2016-01-23 16:38:41,889 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Hum 
+2016-01-23 16:38:41,891 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 16:38:41,891 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Bread 
+2016-01-23 16:38:41,892 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 16:38:41,892 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 16:38:41,892 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Egg 
+2016-01-23 16:38:41,994 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:38:41,999 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 16:38:42,000 INFO Main [main] main Sum = 0 
+2016-01-23 16:38:42,000 INFO Main [main] main Synchronous queue 
+2016-01-23 16:38:42,009 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:40:12,390 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:40:12,393 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 16:40:12,394 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Pineapple 
+2016-01-23 16:40:12,394 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 16:40:12,395 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Pear 
+2016-01-23 16:40:12,395 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Hum 
+2016-01-23 16:40:12,395 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Bread 
+2016-01-23 16:40:12,395 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Milk 
+2016-01-23 16:40:12,395 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Strawberry 
+2016-01-23 16:40:12,395 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 16:40:12,397 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Blueberry 
+2016-01-23 16:40:12,397 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Egg 
+2016-01-23 16:40:12,398 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing 
+2016-01-23 16:40:12,399 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:40:12,402 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 16:40:12,402 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Apple 
+2016-01-23 16:40:12,402 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 16:40:12,403 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 7, i have a Hum 
+2016-01-23 16:40:12,403 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 6, i have a Pear 
+2016-01-23 16:40:12,403 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 10, i have a Milk 
+2016-01-23 16:40:12,403 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 16:40:12,404 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Bread 
+2016-01-23 16:40:12,405 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 16:40:12,405 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 9, i have a Egg 
+2016-01-23 16:40:12,405 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 16:40:12,405 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 12 and i have nothing 
+2016-01-23 16:40:12,521 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:40:12,525 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 16:40:12,526 INFO Main [main] main Sum = 0 
+2016-01-23 16:40:12,526 INFO Main [main] main Synchronous queue 
+2016-01-23 16:40:12,531 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:40:48,591 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:40:48,594 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 16:40:48,594 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a null 
+2016-01-23 16:40:48,595 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing :'( 
+2016-01-23 16:40:48,596 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :'( 
+2016-01-23 16:40:48,596 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :'( 
+2016-01-23 16:40:48,597 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :'( 
+2016-01-23 16:40:48,597 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :'( 
+2016-01-23 16:40:48,597 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :'( 
+2016-01-23 16:40:48,599 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :'( 
+2016-01-23 16:40:48,600 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :'( 
+2016-01-23 16:40:48,599 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :'( 
+2016-01-23 16:40:48,600 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :'( 
+2016-01-23 16:40:48,601 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:40:48,605 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 16:40:48,605 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 16:40:48,605 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 16:40:48,604 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 16:40:48,607 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 12, i have a Pear 
+2016-01-23 16:40:48,608 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Bread 
+2016-01-23 16:40:48,608 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 16:40:48,608 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Hum 
+2016-01-23 16:40:48,608 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Strawberry 
+2016-01-23 16:40:48,609 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 16:40:48,610 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Egg 
+2016-01-23 16:40:48,610 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9 and i have nothing :'( 
+2016-01-23 16:40:48,716 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:40:48,721 INFO Main [main] main Sum = 500500 
+2016-01-23 16:40:48,722 INFO Main [main] main Synchronous queue 
+2016-01-23 16:40:48,731 INFO Main [main] main syncSum = 500500 
+2016-01-23 16:41:03,901 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 16:41:03,904 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 16:41:03,906 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 16:41:03,906 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Pear 
+2016-01-23 16:41:03,908 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Egg 
+2016-01-23 16:41:03,907 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Bread 
+2016-01-23 16:41:03,908 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 16:41:03,908 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 16:41:03,907 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Hum 
+2016-01-23 16:41:03,907 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Milk 
+2016-01-23 16:41:03,907 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 16:41:03,907 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 16:41:03,909 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 16:41:03,910 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 16:41:03,913 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Apple 
+2016-01-23 16:41:03,915 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 16:41:03,917 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 16:41:03,918 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 16:41:03,920 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Hum 
+2016-01-23 16:41:03,920 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12, i have a Bread 
+2016-01-23 16:41:03,920 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Milk 
+2016-01-23 16:41:03,920 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Pear 
+2016-01-23 16:41:03,920 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Strawberry 
+2016-01-23 16:41:03,921 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 16:41:03,921 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Egg 
+2016-01-23 16:41:03,921 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 16:41:04,018 INFO Main [main] main Not synchronous queue 
+2016-01-23 16:41:04,022 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 16:41:04,022 INFO Main [main] main Sum = 0 
+2016-01-23 16:41:04,023 INFO Main [main] main Synchronous queue 
+2016-01-23 16:41:04,028 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:15:17,234 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:15:17,238 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:15:17,239 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:15:17,239 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:15:17,239 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 17:15:17,239 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:15:17,240 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:15:17,240 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Bread 
+2016-01-23 17:15:17,238 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:15:17,241 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Strawberry 
+2016-01-23 17:15:17,240 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:15:17,241 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:15:17,242 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Egg 
+2016-01-23 17:15:17,243 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:15:17,245 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:15:17,247 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 12, i have a Pineapple 
+2016-01-23 17:15:17,247 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:15:17,247 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Watermelon 
+2016-01-23 17:15:17,248 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Hum 
+2016-01-23 17:15:17,248 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Milk 
+2016-01-23 17:15:17,248 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Pear 
+2016-01-23 17:15:17,249 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Strawberry 
+2016-01-23 17:15:17,249 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Bread 
+2016-01-23 17:15:17,249 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:15:17,250 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:15:17,250 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:15:17,352 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:15:17,357 INFO Main [main] main Sum = 500500 
+2016-01-23 17:15:17,358 INFO Main [main] main Synchronous queue 
+2016-01-23 17:15:17,362 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:31:22,594 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:31:22,596 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:31:22,597 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Pineapple 
+2016-01-23 17:31:22,599 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Hum 
+2016-01-23 17:31:22,599 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:31:22,599 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Lemon 
+2016-01-23 17:31:22,599 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:31:22,601 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Milk 
+2016-01-23 17:31:22,601 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Bread 
+2016-01-23 17:31:22,602 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:31:22,602 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:31:22,602 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Egg 
+2016-01-23 17:31:22,603 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:31:22,604 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:31:22,620 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Apple 
+2016-01-23 17:31:22,627 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:31:22,628 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Watermelon 
+2016-01-23 17:31:22,629 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Lemon 
+2016-01-23 17:31:22,630 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pear 
+2016-01-23 17:31:22,631 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Hum 
+2016-01-23 17:31:22,634 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:31:22,635 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Bread 
+2016-01-23 17:31:22,640 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:31:22,641 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:31:22,642 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:31:22,644 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:31:22,718 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:31:22,722 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:31:22,722 INFO Main [main] main Sum = 0 
+2016-01-23 17:31:22,723 INFO Main [main] main Synchronous queue 
+2016-01-23 17:31:22,727 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:33:05,408 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:33:05,411 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :( 
+2016-01-23 17:33:05,411 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a null 
+2016-01-23 17:33:05,412 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:33:05,412 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing :( 
+2016-01-23 17:33:05,413 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :( 
+2016-01-23 17:33:05,413 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:33:05,413 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:33:05,414 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:33:05,413 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :( 
+2016-01-23 17:33:05,414 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:33:05,415 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 17:33:05,416 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:33:05,417 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:33:05,420 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Apple 
+2016-01-23 17:33:05,420 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:33:05,421 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Watermelon 
+2016-01-23 17:33:05,422 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:33:05,422 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:33:05,423 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Hum 
+2016-01-23 17:33:05,423 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:33:05,423 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Bread 
+2016-01-23 17:33:05,424 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:33:05,424 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Blueberry 
+2016-01-23 17:33:05,424 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:33:05,424 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:33:05,524 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:33:05,527 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:33:05,527 INFO Main [main] main Sum = 0 
+2016-01-23 17:33:05,528 INFO Main [main] main Synchronous queue 
+2016-01-23 17:33:05,535 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:41:58,676 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:41:58,679 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Apple 
+2016-01-23 17:41:58,679 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a null 
+2016-01-23 17:41:58,680 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :( 
+2016-01-23 17:41:58,681 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :( 
+2016-01-23 17:41:58,680 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0 and i have nothing :( 
+2016-01-23 17:41:58,682 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:41:58,682 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:41:58,683 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:41:58,683 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 17:41:58,683 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :( 
+2016-01-23 17:41:58,684 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:41:58,683 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:41:58,685 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:41:58,687 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:41:58,689 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 17:41:58,691 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Lemon 
+2016-01-23 17:41:58,691 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:41:58,691 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Hum 
+2016-01-23 17:41:58,690 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:41:58,695 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Milk 
+2016-01-23 17:41:58,695 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Bread 
+2016-01-23 17:41:58,696 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12, i have a Strawberry 
+2016-01-23 17:41:58,696 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:41:58,696 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:41:58,696 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Blueberry 
+2016-01-23 17:41:58,792 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:41:58,797 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:41:58,797 INFO Main [main] main Sum = 0 
+2016-01-23 17:41:58,798 INFO Main [main] main Synchronous queue 
+2016-01-23 17:41:58,805 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:43:09,223 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:43:09,225 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:43:09,226 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:43:09,226 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:43:09,227 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:43:09,226 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:43:09,227 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:43:09,227 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:43:09,228 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:43:09,228 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:43:09,226 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:43:09,226 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Lemon 
+2016-01-23 17:43:09,229 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:43:09,229 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:43:09,232 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:43:09,232 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:43:09,233 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:43:09,233 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:43:09,234 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:43:09,234 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Hum 
+2016-01-23 17:43:09,234 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:43:09,235 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Bread 
+2016-01-23 17:43:09,236 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:43:09,236 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:43:09,237 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:43:09,236 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:43:09,336 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:43:09,341 INFO Main [main] main Sum = 5050 
+2016-01-23 17:43:09,342 INFO Main [main] main Synchronous queue 
+2016-01-23 17:43:09,346 INFO Main [main] main syncSum = 5050 
+2016-01-23 17:43:15,760 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:43:15,763 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:43:15,763 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Apple 
+2016-01-23 17:43:15,764 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Pineapple 
+2016-01-23 17:43:15,765 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:43:15,765 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Pear 
+2016-01-23 17:43:15,766 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Hum 
+2016-01-23 17:43:15,765 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:43:15,766 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Milk 
+2016-01-23 17:43:15,767 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Bread 
+2016-01-23 17:43:15,767 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Strawberry 
+2016-01-23 17:43:15,767 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:43:15,768 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:43:15,768 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:43:15,771 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:43:15,773 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 17:43:15,773 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Watermelon 
+2016-01-23 17:43:15,774 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Lemon 
+2016-01-23 17:43:15,775 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Milk 
+2016-01-23 17:43:15,775 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:43:15,775 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Strawberry 
+2016-01-23 17:43:15,775 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Hum 
+2016-01-23 17:43:15,774 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:43:15,776 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Blueberry 
+2016-01-23 17:43:15,776 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Egg 
+2016-01-23 17:43:15,777 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:43:15,875 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:43:15,877 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:43:15,878 INFO Main [main] main Sum = 0 
+2016-01-23 17:43:15,878 INFO Main [main] main Synchronous queue 
+2016-01-23 17:43:15,882 INFO Main [main] main syncSum = 5050 
+2016-01-23 17:43:20,467 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:43:20,471 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:43:20,471 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:43:20,471 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:43:20,471 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:43:20,472 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pear 
+2016-01-23 17:43:20,472 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Hum 
+2016-01-23 17:43:20,473 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Milk 
+2016-01-23 17:43:20,473 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:43:20,474 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Strawberry 
+2016-01-23 17:43:20,475 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:43:20,475 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:43:20,474 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Blueberry 
+2016-01-23 17:43:20,475 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:43:20,478 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:43:20,478 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:43:20,479 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 12, i have a Watermelon 
+2016-01-23 17:43:20,479 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:43:20,479 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:43:20,480 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Hum 
+2016-01-23 17:43:20,481 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:43:20,481 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:43:20,482 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:43:20,482 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:43:20,482 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:43:20,484 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:43:20,581 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:43:20,584 INFO Main [main] main Sum = 5050 
+2016-01-23 17:43:20,584 INFO Main [main] main Synchronous queue 
+2016-01-23 17:43:20,587 INFO Main [main] main syncSum = 5050 
+2016-01-23 17:43:24,359 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:43:24,361 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:43:24,362 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a null 
+2016-01-23 17:43:24,363 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :( 
+2016-01-23 17:43:24,363 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 17:43:24,363 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:43:24,363 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :( 
+2016-01-23 17:43:24,364 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:43:24,364 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :( 
+2016-01-23 17:43:24,365 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing :( 
+2016-01-23 17:43:24,365 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:43:24,366 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:43:24,366 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:43:24,366 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:43:24,369 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:43:24,369 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:43:24,370 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:43:24,370 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 12, i have a Lemon 
+2016-01-23 17:43:24,370 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pear 
+2016-01-23 17:43:24,371 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:43:24,371 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:43:24,371 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:43:24,371 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:43:24,372 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Bread 
+2016-01-23 17:43:24,371 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:43:24,373 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:43:24,472 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:43:24,474 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:43:24,475 INFO Main [main] main Sum = 0 
+2016-01-23 17:43:24,475 INFO Main [main] main Synchronous queue 
+2016-01-23 17:43:24,478 INFO Main [main] main syncSum = 5050 
+2016-01-23 17:43:38,113 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:43:38,116 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:43:38,116 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a null 
+2016-01-23 17:43:38,117 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing :( 
+2016-01-23 17:43:38,117 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :( 
+2016-01-23 17:43:38,117 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :( 
+2016-01-23 17:43:38,118 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :( 
+2016-01-23 17:43:38,118 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:43:38,118 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:43:38,118 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 17:43:38,119 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:43:38,119 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:43:38,120 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:43:38,121 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:43:38,123 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:43:38,124 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 12, i have a Watermelon 
+2016-01-23 17:43:38,123 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:43:38,126 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:43:38,126 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:43:38,126 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 17:43:38,127 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Milk 
+2016-01-23 17:43:38,128 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:43:38,128 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:43:38,128 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:43:38,129 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:43:38,129 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:43:38,226 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:43:38,228 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:43:38,228 INFO Main [main] main Sum = 0 
+2016-01-23 17:43:38,229 INFO Main [main] main Synchronous queue 
+2016-01-23 17:43:38,231 INFO Main [main] main syncSum = 5050 
+2016-01-23 17:43:49,431 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:43:49,433 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:43:49,434 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:43:49,435 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:43:49,435 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Hum 
+2016-01-23 17:43:49,435 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:43:49,435 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Milk 
+2016-01-23 17:43:49,436 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Bread 
+2016-01-23 17:43:49,436 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:43:49,437 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:43:49,437 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:43:49,437 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:43:49,438 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:43:49,439 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:43:49,441 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:43:49,443 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Pineapple 
+2016-01-23 17:43:49,444 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Watermelon 
+2016-01-23 17:43:49,444 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Pear 
+2016-01-23 17:43:49,444 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Hum 
+2016-01-23 17:43:49,445 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Lemon 
+2016-01-23 17:43:49,447 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Bread 
+2016-01-23 17:43:49,447 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Milk 
+2016-01-23 17:43:49,448 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Strawberry 
+2016-01-23 17:43:49,449 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:43:49,450 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:43:49,450 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:43:49,545 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:43:49,548 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:43:49,548 INFO Main [main] main Sum = 0 
+2016-01-23 17:43:49,549 INFO Main [main] main Synchronous queue 
+2016-01-23 17:43:49,551 INFO Main [main] main syncSum = 5050 
+2016-01-23 17:45:54,383 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:45:54,386 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:45:54,386 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Pineapple 
+2016-01-23 17:45:54,386 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:45:54,387 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 17:45:54,387 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Hum 
+2016-01-23 17:45:54,388 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Milk 
+2016-01-23 17:45:54,388 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:45:54,388 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:45:54,389 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Blueberry 
+2016-01-23 17:45:54,389 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Egg 
+2016-01-23 17:45:54,389 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Pear 
+2016-01-23 17:45:54,389 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:45:54,390 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:45:54,393 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:45:54,395 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:45:54,395 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 17:45:54,397 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Pear 
+2016-01-23 17:45:54,397 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Lemon 
+2016-01-23 17:45:54,397 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Hum 
+2016-01-23 17:45:54,397 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Milk 
+2016-01-23 17:45:54,397 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Bread 
+2016-01-23 17:45:54,398 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Strawberry 
+2016-01-23 17:45:54,398 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:45:54,398 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:45:54,399 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:45:54,496 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:45:54,500 INFO Main [main] main Sum = 5050 
+2016-01-23 17:45:54,500 INFO Main [main] main Synchronous queue 
+2016-01-23 17:45:54,502 INFO Main [main] main syncSum = 5050 
+2016-01-23 17:47:06,692 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:47:06,694 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:47:06,694 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:47:06,695 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:47:06,695 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:47:06,695 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:47:06,695 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Hum 
+2016-01-23 17:47:06,696 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Milk 
+2016-01-23 17:47:06,696 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Bread 
+2016-01-23 17:47:06,697 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:47:06,697 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:47:06,698 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:47:06,698 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:47:06,698 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:47:06,701 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:47:06,701 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:47:06,702 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:47:06,702 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 12, i have a Lemon 
+2016-01-23 17:47:06,703 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Bread 
+2016-01-23 17:47:06,703 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:47:06,702 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pear 
+2016-01-23 17:47:06,703 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:47:06,704 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:47:06,704 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:47:06,704 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:47:06,704 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:47:06,804 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:47:06,807 INFO Main [main] main Sum = 5050 
+2016-01-23 17:47:06,808 INFO Main [main] main Synchronous queue 
+2016-01-23 17:47:06,810 INFO Main [main] main syncSum = 5050 
+2016-01-23 17:48:04,826 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:48:04,829 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:48:04,829 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:48:04,829 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Watermelon 
+2016-01-23 17:48:04,830 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Pear 
+2016-01-23 17:48:04,831 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:48:04,831 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Milk 
+2016-01-23 17:48:04,831 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Hum 
+2016-01-23 17:48:04,830 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Lemon 
+2016-01-23 17:48:04,832 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Strawberry 
+2016-01-23 17:48:04,832 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Egg 
+2016-01-23 17:48:04,832 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Blueberry 
+2016-01-23 17:48:04,833 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:48:04,833 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:48:04,836 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:48:04,836 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:48:04,837 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 12, i have a Watermelon 
+2016-01-23 17:48:04,837 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Lemon 
+2016-01-23 17:48:04,837 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:48:04,838 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Hum 
+2016-01-23 17:48:04,838 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Milk 
+2016-01-23 17:48:04,838 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:48:04,838 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:48:04,839 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:48:04,839 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:48:04,839 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Blueberry 
+2016-01-23 17:48:04,942 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:48:04,946 INFO Main [main] main Sum = 5050 
+2016-01-23 17:48:05,047 INFO Main [main] main Synchronous queue 
+2016-01-23 17:48:05,049 INFO Main [main] main syncSum = 5050 
+2016-01-23 17:48:48,272 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:48:48,276 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:48:48,276 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:48:48,276 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:48:48,277 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Lemon 
+2016-01-23 17:48:48,277 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:48:48,277 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Pear 
+2016-01-23 17:48:48,278 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Hum 
+2016-01-23 17:48:48,278 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:48:48,278 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Bread 
+2016-01-23 17:48:48,279 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:48:48,279 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:48:48,280 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:48:48,280 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:48:48,283 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:48:48,283 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:48:48,283 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:48:48,283 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Pineapple 
+2016-01-23 17:48:48,285 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 12, i have a Pear 
+2016-01-23 17:48:48,285 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:48:48,286 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:48:48,286 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:48:48,286 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:48:48,286 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:48:48,286 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Bread 
+2016-01-23 17:48:48,287 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:48:48,389 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:48:48,393 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:48:48,393 INFO Main [main] main Sum = 0 
+2016-01-23 17:48:48,493 INFO Main [main] main Synchronous queue 
+2016-01-23 17:48:48,500 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:49:00,517 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:49:00,520 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:49:00,520 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Pineapple 
+2016-01-23 17:49:00,521 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:49:00,521 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Watermelon 
+2016-01-23 17:49:00,521 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:49:00,522 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Hum 
+2016-01-23 17:49:00,522 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Milk 
+2016-01-23 17:49:00,523 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Bread 
+2016-01-23 17:49:00,523 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Strawberry 
+2016-01-23 17:49:00,523 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:49:00,524 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Egg 
+2016-01-23 17:49:00,524 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:49:00,525 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:49:00,527 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:49:00,528 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:49:00,528 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:49:00,528 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:49:00,529 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 7, i have a Hum 
+2016-01-23 17:49:00,529 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:49:00,529 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 8, i have a Milk 
+2016-01-23 17:49:00,530 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Bread 
+2016-01-23 17:49:00,530 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:49:00,531 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:49:00,531 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 12, i have a Egg 
+2016-01-23 17:49:00,532 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:49:00,636 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:49:00,639 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:49:00,640 INFO Main [main] main Sum = 0 
+2016-01-23 17:49:00,740 INFO Main [main] main Synchronous queue 
+2016-01-23 17:49:00,756 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:49:15,794 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:49:15,797 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:49:15,797 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:49:15,797 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:49:15,799 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:49:15,799 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:49:15,800 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Hum 
+2016-01-23 17:49:15,802 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:49:15,802 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Bread 
+2016-01-23 17:49:15,803 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:49:15,803 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:49:15,804 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Egg 
+2016-01-23 17:49:15,804 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:49:15,805 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:49:15,808 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:49:15,808 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Apple 
+2016-01-23 17:49:15,808 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:49:15,809 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 17:49:15,809 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 9, i have a Hum 
+2016-01-23 17:49:15,810 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 10, i have a Milk 
+2016-01-23 17:49:15,810 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 11, i have a Bread 
+2016-01-23 17:49:15,810 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:49:15,810 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Blueberry 
+2016-01-23 17:49:15,810 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Strawberry 
+2016-01-23 17:49:15,811 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:49:15,811 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:49:15,914 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:49:15,918 INFO Main [main] main Sum = 500500 
+2016-01-23 17:49:16,019 INFO Main [main] main Synchronous queue 
+2016-01-23 17:49:16,037 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:50:18,529 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:50:18,532 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:50:18,534 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:50:18,534 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Pear 
+2016-01-23 17:50:18,534 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:50:18,532 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Pineapple 
+2016-01-23 17:50:18,533 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Watermelon 
+2016-01-23 17:50:18,534 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Milk 
+2016-01-23 17:50:18,535 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Bread 
+2016-01-23 17:50:18,535 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:50:18,535 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:50:18,536 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:50:18,536 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:50:18,537 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:50:18,540 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Apple 
+2016-01-23 17:50:18,540 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 17:50:18,541 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Watermelon 
+2016-01-23 17:50:18,541 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:50:18,541 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:50:18,542 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:50:18,542 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Milk 
+2016-01-23 17:50:18,542 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:50:18,542 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12, i have a Strawberry 
+2016-01-23 17:50:18,543 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:50:18,543 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Egg 
+2016-01-23 17:50:18,543 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:50:18,644 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:50:18,648 INFO Main [main] main Sum = 500500 
+2016-01-23 17:50:18,748 INFO Main [main] main Synchronous queue 
+2016-01-23 17:50:18,763 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:50:39,586 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:50:39,589 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:50:39,589 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:50:39,590 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:50:39,590 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:50:39,591 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:50:39,591 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Pear 
+2016-01-23 17:50:39,592 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:50:39,592 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:50:39,592 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:50:39,592 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:50:39,593 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:50:39,594 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:50:39,594 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:50:39,597 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Apple 
+2016-01-23 17:50:39,597 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:50:39,598 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:50:39,598 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 17:50:39,598 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:50:39,599 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:50:39,600 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:50:39,600 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Milk 
+2016-01-23 17:50:39,601 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:50:39,601 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:50:39,601 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:50:39,601 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:50:39,705 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:50:39,710 INFO Main [main] main Sum = 500500 
+2016-01-23 17:50:39,810 INFO Main [main] main Synchronous queue 
+2016-01-23 17:50:39,819 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:50:48,310 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:50:48,313 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:50:48,313 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pear 
+2016-01-23 17:50:48,313 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:50:48,313 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:50:48,313 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:50:48,314 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:50:48,314 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Milk 
+2016-01-23 17:50:48,316 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:50:48,315 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:50:48,316 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:50:48,316 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:50:48,316 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:50:48,317 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:50:48,319 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:50:48,321 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 17:50:48,321 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Watermelon 
+2016-01-23 17:50:48,322 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Lemon 
+2016-01-23 17:50:48,322 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:50:48,322 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:50:48,323 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Bread 
+2016-01-23 17:50:48,323 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:50:48,323 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:50:48,324 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:50:48,324 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:50:48,324 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:50:48,424 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:50:48,427 INFO Main [main] main Sum = 500500 
+2016-01-23 17:50:48,527 INFO Main [main] main Synchronous queue 
+2016-01-23 17:50:48,532 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:50:52,042 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:50:52,045 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:50:52,045 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:50:52,046 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Pineapple 
+2016-01-23 17:50:52,046 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:50:52,046 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Lemon 
+2016-01-23 17:50:52,046 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Pear 
+2016-01-23 17:50:52,047 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Milk 
+2016-01-23 17:50:52,047 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Hum 
+2016-01-23 17:50:52,047 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Bread 
+2016-01-23 17:50:52,048 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Strawberry 
+2016-01-23 17:50:52,048 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Blueberry 
+2016-01-23 17:50:52,048 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Egg 
+2016-01-23 17:50:52,049 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:50:52,053 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:50:52,055 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:50:52,056 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 17:50:52,056 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Lemon 
+2016-01-23 17:50:52,056 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Pear 
+2016-01-23 17:50:52,056 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Hum 
+2016-01-23 17:50:52,057 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:50:52,057 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Bread 
+2016-01-23 17:50:52,058 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 17:50:52,058 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:50:52,058 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:50:52,059 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:50:52,157 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:50:52,161 INFO Main [main] main Sum = 500500 
+2016-01-23 17:50:52,261 INFO Main [main] main Synchronous queue 
+2016-01-23 17:50:52,269 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:50:56,383 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:50:56,385 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:50:56,385 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Watermelon 
+2016-01-23 17:50:56,385 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:50:56,385 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:50:56,387 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:50:56,387 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Milk 
+2016-01-23 17:50:56,387 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:50:56,387 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:50:56,388 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Strawberry 
+2016-01-23 17:50:56,388 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:50:56,389 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:50:56,389 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Egg 
+2016-01-23 17:50:56,389 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:50:56,392 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:50:56,392 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:50:56,393 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:50:56,393 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:50:56,394 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 9, i have a Pear 
+2016-01-23 17:50:56,394 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 10, i have a Hum 
+2016-01-23 17:50:56,394 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 11, i have a Milk 
+2016-01-23 17:50:56,394 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 12, i have a Bread 
+2016-01-23 17:50:56,395 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Blueberry 
+2016-01-23 17:50:56,395 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Strawberry 
+2016-01-23 17:50:56,395 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:50:56,396 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:50:56,498 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:50:56,501 INFO Main [main] main Sum = 500500 
+2016-01-23 17:50:56,601 INFO Main [main] main Synchronous queue 
+2016-01-23 17:50:56,606 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:51:22,874 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:51:22,876 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:51:22,876 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a null 
+2016-01-23 17:51:22,877 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :( 
+2016-01-23 17:51:22,878 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :( 
+2016-01-23 17:51:22,878 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :( 
+2016-01-23 17:51:22,878 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing :( 
+2016-01-23 17:51:22,879 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:51:22,879 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:51:22,879 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:51:22,880 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 17:51:22,880 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:51:22,880 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:51:22,880 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:51:22,882 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:51:22,883 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:51:22,883 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Pineapple 
+2016-01-23 17:51:22,884 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Lemon 
+2016-01-23 17:51:22,884 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:51:22,884 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 7, i have a Hum 
+2016-01-23 17:51:22,886 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 8, i have a Milk 
+2016-01-23 17:51:22,887 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:51:22,887 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:51:22,887 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:51:22,887 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 12, i have a Egg 
+2016-01-23 17:51:22,888 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 17:51:22,992 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:51:22,996 INFO Main [main] main Sum = 500500 
+2016-01-23 17:51:23,097 INFO Main [main] main Synchronous queue 
+2016-01-23 17:51:23,101 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:52:34,855 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:52:34,858 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:52:34,858 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a null 
+2016-01-23 17:52:34,858 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing :( 
+2016-01-23 17:52:34,859 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:52:34,860 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :( 
+2016-01-23 17:52:34,859 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:52:34,860 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:52:34,861 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :( 
+2016-01-23 17:52:34,861 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :( 
+2016-01-23 17:52:34,862 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 17:52:34,862 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:52:34,863 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:52:34,863 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:52:34,866 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:52:34,868 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:52:34,868 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 17:52:34,870 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:52:34,870 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Bread 
+2016-01-23 17:52:34,870 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:52:34,870 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:52:34,870 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:52:34,870 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:52:34,869 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Lemon 
+2016-01-23 17:52:34,871 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:52:34,871 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:52:34,972 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:52:34,977 INFO Main [main] main Sum = 500500 
+2016-01-23 17:52:34,977 INFO Main [main] main Synchronous queue 
+2016-01-23 17:52:34,982 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:52:42,649 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:52:42,652 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:52:42,652 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Pineapple 
+2016-01-23 17:52:42,653 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Lemon 
+2016-01-23 17:52:42,653 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Pear 
+2016-01-23 17:52:42,652 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Watermelon 
+2016-01-23 17:52:42,654 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:52:42,654 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:52:42,654 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:52:42,653 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Hum 
+2016-01-23 17:52:42,655 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Blueberry 
+2016-01-23 17:52:42,655 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Egg 
+2016-01-23 17:52:42,655 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:52:42,656 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:52:42,658 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:52:42,658 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:52:42,659 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:52:42,660 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 17:52:42,660 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 12, i have a Hum 
+2016-01-23 17:52:42,660 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pear 
+2016-01-23 17:52:42,661 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Bread 
+2016-01-23 17:52:42,661 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Strawberry 
+2016-01-23 17:52:42,661 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Milk 
+2016-01-23 17:52:42,662 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Blueberry 
+2016-01-23 17:52:42,662 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:52:42,662 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:52:42,765 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:52:42,768 INFO Main [main] main Sum = 500500 
+2016-01-23 17:52:42,768 INFO Main [main] main Synchronous queue 
+2016-01-23 17:52:42,774 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:53:46,165 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:53:46,168 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:53:46,168 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Pineapple 
+2016-01-23 17:53:46,169 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:53:46,170 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:53:46,171 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:53:46,172 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Hum 
+2016-01-23 17:53:46,172 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Milk 
+2016-01-23 17:53:46,173 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Bread 
+2016-01-23 17:53:46,174 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:53:46,174 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Strawberry 
+2016-01-23 17:53:46,174 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Egg 
+2016-01-23 17:53:46,175 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:53:46,175 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:53:46,179 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Apple 
+2016-01-23 17:53:46,179 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 17:53:46,183 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Watermelon 
+2016-01-23 17:53:46,185 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Lemon 
+2016-01-23 17:53:46,185 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12, i have a Pear 
+2016-01-23 17:53:46,185 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Hum 
+2016-01-23 17:53:46,186 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Milk 
+2016-01-23 17:53:46,186 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Bread 
+2016-01-23 17:53:46,187 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:53:46,187 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Blueberry 
+2016-01-23 17:53:46,187 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Egg 
+2016-01-23 17:53:46,188 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:53:46,283 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:53:46,287 INFO Main [main] main Sum = 500500 
+2016-01-23 17:53:46,287 INFO Main [main] main Synchronous queue 
+2016-01-23 17:53:46,292 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:53:53,839 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:53:53,842 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:53:53,843 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:53:53,843 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:53:53,845 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:53:53,845 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:53:53,845 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Hum 
+2016-01-23 17:53:53,846 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:53:53,847 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Bread 
+2016-01-23 17:53:53,848 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:53:53,849 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Blueberry 
+2016-01-23 17:53:53,849 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Egg 
+2016-01-23 17:53:53,850 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:53:53,850 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:53:53,855 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:53:53,855 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:53:53,857 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:53:53,858 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Lemon 
+2016-01-23 17:53:53,858 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:53:53,859 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Hum 
+2016-01-23 17:53:53,861 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Milk 
+2016-01-23 17:53:53,862 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:53:53,863 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Strawberry 
+2016-01-23 17:53:53,865 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:53:53,866 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12, i have a Egg 
+2016-01-23 17:53:53,867 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:53:53,964 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:53:53,967 INFO Main [main] main Sum = 500500 
+2016-01-23 17:53:53,968 INFO Main [main] main Synchronous queue 
+2016-01-23 17:53:53,974 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:53:57,989 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:53:57,997 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:53:58,000 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Pineapple 
+2016-01-23 17:53:58,000 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:53:58,001 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:53:58,002 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:53:58,002 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Hum 
+2016-01-23 17:53:58,003 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:53:58,003 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Pear 
+2016-01-23 17:53:58,004 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Strawberry 
+2016-01-23 17:53:58,004 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Bread 
+2016-01-23 17:53:58,005 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:53:58,005 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:53:58,006 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:53:58,009 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:53:58,011 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:53:58,012 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Pear 
+2016-01-23 17:53:58,012 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Lemon 
+2016-01-23 17:53:58,011 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:53:58,015 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Hum 
+2016-01-23 17:53:58,016 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Bread 
+2016-01-23 17:53:58,016 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:53:58,017 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Egg 
+2016-01-23 17:53:58,017 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:53:58,017 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Strawberry 
+2016-01-23 17:53:58,018 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 17:53:58,114 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:53:58,118 INFO Main [main] main Sum = 500500 
+2016-01-23 17:53:58,118 INFO Main [main] main Synchronous queue 
+2016-01-23 17:53:58,123 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:54:23,380 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:54:23,384 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:54:23,385 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:54:23,385 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:54:23,385 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:54:23,386 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:54:23,387 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:54:23,387 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Milk 
+2016-01-23 17:54:23,387 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:54:23,388 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Strawberry 
+2016-01-23 17:54:23,388 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:54:23,389 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:54:23,389 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:54:23,390 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:54:23,392 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:54:23,392 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:54:23,393 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 12, i have a Watermelon 
+2016-01-23 17:54:23,394 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:54:23,394 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:54:23,394 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:54:23,395 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:54:23,395 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:54:23,395 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:54:23,396 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Egg 
+2016-01-23 17:54:23,396 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 17:54:23,396 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:54:23,497 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:54:23,500 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:54:23,501 INFO Main [main] main Sum = 0 
+2016-01-23 17:54:23,502 INFO Main [main] main Synchronous queue 
+2016-01-23 17:54:23,507 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:54:52,168 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:54:52,170 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:54:52,171 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a null 
+2016-01-23 17:54:52,171 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing :( 
+2016-01-23 17:54:52,172 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :( 
+2016-01-23 17:54:52,172 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :( 
+2016-01-23 17:54:52,173 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:54:52,173 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:54:52,173 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :( 
+2016-01-23 17:54:52,174 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 17:54:52,174 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:54:52,175 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:54:52,175 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:54:52,176 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:54:52,178 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:54:52,178 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:54:52,179 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 12, i have a Watermelon 
+2016-01-23 17:54:52,180 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:54:52,180 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:54:52,180 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Hum 
+2016-01-23 17:54:52,181 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Milk 
+2016-01-23 17:54:52,181 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:54:52,181 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Strawberry 
+2016-01-23 17:54:52,182 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Blueberry 
+2016-01-23 17:54:52,182 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:54:52,182 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:54:52,283 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:54:52,287 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:54:52,288 INFO Main [main] main Sum = 0 
+2016-01-23 17:54:52,288 INFO Main [main] main Synchronous queue 
+2016-01-23 17:54:52,293 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:56:15,581 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:56:15,583 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:56:15,584 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:56:15,583 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:56:15,584 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:56:15,585 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:56:15,585 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Hum 
+2016-01-23 17:56:15,585 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:56:15,585 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Bread 
+2016-01-23 17:56:15,586 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:56:15,586 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:56:15,587 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:56:15,586 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:56:15,587 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:56:15,590 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:56:15,590 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:56:15,591 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 17:56:15,591 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:56:15,591 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 11, i have a Pear 
+2016-01-23 17:56:15,591 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 12, i have a Hum 
+2016-01-23 17:56:15,592 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:56:15,592 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:56:15,592 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:56:15,592 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:56:15,593 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Egg 
+2016-01-23 17:56:15,593 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:56:15,698 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:56:15,702 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:56:15,702 INFO Main [main] main Sum = 0 
+2016-01-23 17:56:15,703 INFO Main [main] main Synchronous queue 
+2016-01-23 17:56:15,707 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:56:23,522 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:56:23,524 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:56:23,524 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:56:23,524 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:56:23,525 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Lemon 
+2016-01-23 17:56:23,526 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Strawberry 
+2016-01-23 17:56:23,526 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Bread 
+2016-01-23 17:56:23,526 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Milk 
+2016-01-23 17:56:23,526 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Pear 
+2016-01-23 17:56:23,526 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Hum 
+2016-01-23 17:56:23,527 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Blueberry 
+2016-01-23 17:56:23,527 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Egg 
+2016-01-23 17:56:23,528 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:56:23,529 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:56:23,532 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:56:23,533 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:56:23,533 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Lemon 
+2016-01-23 17:56:23,533 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 17:56:23,534 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Pear 
+2016-01-23 17:56:23,534 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Hum 
+2016-01-23 17:56:23,535 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Milk 
+2016-01-23 17:56:23,535 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:56:23,536 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:56:23,536 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:56:23,536 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12, i have a Egg 
+2016-01-23 17:56:23,536 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:56:23,636 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:56:23,639 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:56:23,639 INFO Main [main] main Sum = 0 
+2016-01-23 17:56:23,639 INFO Main [main] main Synchronous queue 
+2016-01-23 17:56:23,643 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:56:28,632 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:56:28,636 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:56:28,636 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:56:28,636 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:56:28,636 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:56:28,636 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:56:28,638 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Hum 
+2016-01-23 17:56:28,640 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Milk 
+2016-01-23 17:56:28,641 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Bread 
+2016-01-23 17:56:28,641 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:56:28,642 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:56:28,643 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Egg 
+2016-01-23 17:56:28,643 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:56:28,644 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:56:28,649 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Apple 
+2016-01-23 17:56:28,649 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:56:28,651 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:56:28,653 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:56:28,654 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:56:28,654 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:56:28,655 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Milk 
+2016-01-23 17:56:28,655 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Bread 
+2016-01-23 17:56:28,655 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Strawberry 
+2016-01-23 17:56:28,658 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Blueberry 
+2016-01-23 17:56:28,658 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12, i have a Egg 
+2016-01-23 17:56:28,658 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:56:28,751 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:56:28,753 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:56:28,754 INFO Main [main] main Sum = 0 
+2016-01-23 17:56:28,754 INFO Main [main] main Synchronous queue 
+2016-01-23 17:56:28,759 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:56:31,429 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:56:31,432 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:56:31,432 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a null 
+2016-01-23 17:56:31,435 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :( 
+2016-01-23 17:56:31,435 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :( 
+2016-01-23 17:56:31,435 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :( 
+2016-01-23 17:56:31,436 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing :( 
+2016-01-23 17:56:31,436 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:56:31,437 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 17:56:31,437 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 17:56:31,438 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 17:56:31,439 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:56:31,440 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 17:56:31,441 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:56:31,443 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:56:31,443 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:56:31,444 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 11, i have a Watermelon 
+2016-01-23 17:56:31,445 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 12, i have a Lemon 
+2016-01-23 17:56:31,445 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Pear 
+2016-01-23 17:56:31,445 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:56:31,445 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Milk 
+2016-01-23 17:56:31,446 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Bread 
+2016-01-23 17:56:31,447 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:56:31,447 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:56:31,447 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:56:31,447 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:56:31,549 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:56:31,552 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 17:56:31,553 INFO Main [main] main Sum = 0 
+2016-01-23 17:56:31,553 INFO Main [main] main Synchronous queue 
+2016-01-23 17:56:31,558 INFO Main [main] main syncSum = 500500 
+2016-01-23 17:56:34,241 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 17:56:34,244 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 17:56:34,244 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 17:56:34,244 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 17:56:34,245 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 17:56:34,245 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Pear 
+2016-01-23 17:56:34,245 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:56:34,245 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Hum 
+2016-01-23 17:56:34,246 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Bread 
+2016-01-23 17:56:34,246 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8, i have a Strawberry 
+2016-01-23 17:56:34,247 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Egg 
+2016-01-23 17:56:34,247 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:56:34,247 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 17:56:34,247 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 17:56:34,249 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 17:56:34,249 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 17:56:34,250 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Watermelon 
+2016-01-23 17:56:34,251 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 11, i have a Pear 
+2016-01-23 17:56:34,251 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 12, i have a Hum 
+2016-01-23 17:56:34,251 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Lemon 
+2016-01-23 17:56:34,252 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Milk 
+2016-01-23 17:56:34,252 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Bread 
+2016-01-23 17:56:34,253 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Blueberry 
+2016-01-23 17:56:34,253 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Strawberry 
+2016-01-23 17:56:34,253 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Egg 
+2016-01-23 17:56:34,254 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 17:56:34,357 INFO Main [main] main Not synchronous queue 
+2016-01-23 17:56:34,365 INFO Main [main] main Sum = 500500 
+2016-01-23 17:56:34,365 INFO Main [main] main Synchronous queue 
+2016-01-23 17:56:34,375 INFO Main [main] main syncSum = 500500 
+2016-01-23 18:06:12,774 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 18:06:12,777 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 18:06:12,777 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2, i have a Watermelon 
+2016-01-23 18:06:12,777 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a Pineapple 
+2016-01-23 18:06:12,778 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5, i have a Hum 
+2016-01-23 18:06:12,778 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4, i have a Pear 
+2016-01-23 18:06:12,778 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3, i have a Lemon 
+2016-01-23 18:06:12,778 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10, i have a Milk 
+2016-01-23 18:06:12,780 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11, i have a Egg 
+2016-01-23 18:06:12,780 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9, i have a Strawberry 
+2016-01-23 18:06:12,780 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7, i have a Blueberry 
+2016-01-23 18:06:12,779 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6, i have a Bread 
+2016-01-23 18:06:12,780 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 18:06:12,781 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 18:06:12,783 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 18:06:12,783 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 18:06:12,783 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Pineapple 
+2016-01-23 18:06:12,784 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 12, i have a Lemon 
+2016-01-23 18:06:12,784 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pear 
+2016-01-23 18:06:12,786 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Hum 
+2016-01-23 18:06:12,786 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Bread 
+2016-01-23 18:06:12,786 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Milk 
+2016-01-23 18:06:12,786 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Strawberry 
+2016-01-23 18:06:12,786 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Blueberry 
+2016-01-23 18:06:12,787 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Egg 
+2016-01-23 18:06:12,787 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 18:06:12,888 INFO Main [main] main Not synchronous queue 
+2016-01-23 18:06:12,895 INFO Main [main] main Sum = 500500 
+2016-01-23 18:06:12,895 INFO Main [main] main Synchronous queue 
+2016-01-23 18:06:12,900 INFO Main [main] main syncSum = 500500 
+2016-01-23 18:06:34,473 INFO FeedHedgehogs [main] feed Not synchronous streams 
+2016-01-23 18:06:34,475 INFO GreedyHedgehog [Thread-1] run I'am hedgehog 0, i have a Apple 
+2016-01-23 18:06:34,475 INFO GreedyHedgehog [Thread-2] run I'am hedgehog 1, i have a null 
+2016-01-23 18:06:34,476 INFO GreedyHedgehog [Thread-3] run I'am hedgehog 2 and i have nothing :( 
+2016-01-23 18:06:34,476 INFO GreedyHedgehog [Thread-4] run I'am hedgehog 3 and i have nothing :( 
+2016-01-23 18:06:34,477 INFO GreedyHedgehog [Thread-9] run I'am hedgehog 8 and i have nothing :( 
+2016-01-23 18:06:34,477 INFO GreedyHedgehog [Thread-8] run I'am hedgehog 7 and i have nothing :( 
+2016-01-23 18:06:34,477 INFO GreedyHedgehog [Thread-7] run I'am hedgehog 6 and i have nothing :( 
+2016-01-23 18:06:34,478 INFO GreedyHedgehog [Thread-6] run I'am hedgehog 5 and i have nothing :( 
+2016-01-23 18:06:34,478 INFO GreedyHedgehog [Thread-5] run I'am hedgehog 4 and i have nothing :( 
+2016-01-23 18:06:34,479 INFO GreedyHedgehog [Thread-11] run I'am hedgehog 10 and i have nothing :( 
+2016-01-23 18:06:34,479 INFO GreedyHedgehog [Thread-10] run I'am hedgehog 9 and i have nothing :( 
+2016-01-23 18:06:34,479 INFO GreedyHedgehog [Thread-12] run I'am hedgehog 11 and i have nothing :( 
+2016-01-23 18:06:34,480 INFO FeedHedgehogs [main] feed Synchronous streams 
+2016-01-23 18:06:34,483 INFO GreedyHedgehog [pool-2-thread-1] run I'am hedgehog 1, i have a Apple 
+2016-01-23 18:06:34,483 INFO GreedyHedgehog [pool-2-thread-2] run I'am hedgehog 2, i have a Pineapple 
+2016-01-23 18:06:34,485 INFO GreedyHedgehog [pool-2-thread-4] run I'am hedgehog 4, i have a Watermelon 
+2016-01-23 18:06:34,485 INFO GreedyHedgehog [pool-2-thread-6] run I'am hedgehog 6, i have a Pear 
+2016-01-23 18:06:34,485 INFO GreedyHedgehog [pool-2-thread-8] run I'am hedgehog 8, i have a Lemon 
+2016-01-23 18:06:34,485 INFO GreedyHedgehog [pool-2-thread-7] run I'am hedgehog 7, i have a Hum 
+2016-01-23 18:06:34,486 INFO GreedyHedgehog [pool-2-thread-3] run I'am hedgehog 3, i have a Bread 
+2016-01-23 18:06:34,485 INFO GreedyHedgehog [pool-2-thread-9] run I'am hedgehog 9, i have a Milk 
+2016-01-23 18:06:34,486 INFO GreedyHedgehog [pool-2-thread-11] run I'am hedgehog 11, i have a Egg 
+2016-01-23 18:06:34,486 INFO GreedyHedgehog [pool-2-thread-10] run I'am hedgehog 10, i have a Blueberry 
+2016-01-23 18:06:34,486 INFO GreedyHedgehog [pool-2-thread-5] run I'am hedgehog 5, i have a Strawberry 
+2016-01-23 18:06:34,487 INFO GreedyHedgehog [pool-2-thread-12] run I'am hedgehog 12 and i have nothing :( 
+2016-01-23 18:06:34,588 INFO Main [main] main Not synchronous queue 
+2016-01-23 18:06:34,592 ERROR SumCollector [main] collectSum java.lang.NullPointerException 
+2016-01-23 18:06:34,593 INFO Main [main] main Sum = 0 
+2016-01-23 18:06:34,593 INFO Main [main] main Synchronous queue 
+2016-01-23 18:06:34,597 INFO Main [main] main syncSum = 500500 
